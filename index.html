@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>ANIMATED SKILLS BAR</title>
+</head>
+<body>
+
+  
+  <div class="container">
+    
+  <h1> <span class="input"></span></h1>
+
+    <div class="skill-box">
+      <span class="title">HTML</span>
+
+      <div class="skill-bar">
+        <span class="skill-per html">
+          <span class="tooltip">90%</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="title">CSS</span>
+
+      <div class="skill-bar">
+        <span class="skill-per css">
+          <span class="tooltip">70%</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="title">JAVASCRIPT</span>
+
+      <div class="skill-bar">
+        <span class="skill-per javascript">
+          <span class="tooltip">50%</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="title">REACT</span>
+
+      <div class="skill-bar">
+        <span class="skill-per react">
+          <span class="tooltip">30%</span>
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.input', {
+      strings:['Olá Sou Lucas Oliveira.','Front-End Developer </>','Estas são minhas Skills'],
+      typeSpeed: 70,
+      loop: true
+    });
+  </script>
+</body>
+</html>
